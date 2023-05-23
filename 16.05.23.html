@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     let body = document.body;
+    //     let div1 = document.createElement('div');
+    //     div1.style.width = '500px';
+    //     div1.style.height = '660px';
+    //     div1.style.backgroundColor = 'rgb(248, 248, 248)';
+    //     div1.style.borderRadius = '20px';
+    //     body.appendChild(div1)
+
+    // let div2 = document.createElement('img');
+    // div2.src = 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png';
+    // div2.style.width = '500px';
+    // div2.style.height = '500px';
+    // div2.style.borderRadius = '20px';
+    // div1.appendChild(div2);
+
+    // let div3 = document.createElement('div');
+    // div3.innerText = 'JavaScript - Programming Language'
+    // div3.style.fontSize = '20px';
+    // div3.style.fontWeight = 'bold';
+    // div3.style.margin = '20px'
+    // div1.appendChild(div3);
+
+    // let div4 = document.createElement('div');
+    // div4.innerText = 'JavaScript, often abbreviated as JS, is a programming language that conforns to the ECMAScript specification.'
+    // div4.style.fontSize = '20px';
+    // div4.style.margin = '25px';
+    // div4.style.fontWeight = 'bold';
+    // div1.appendChild(div4);
+
+    let body = document.body;
+    body.style.backgroundColor = 'green';
+
+    let div1 = document.createElement('div');
+    div1.style.width = '400px';
+    div1.style.height ='550px';
+    div1.style.backgroundColor = 'white';
+    div1.style.display = 'flex';
+    div1.style.flexDirection = 'column';
+    body.appendChild(div1);
+
+    let div2 = document.createElement('div');
+    div2.innerText = 'Colorlib Contact Form';
+    div2.style.fontSize = '35px';
+    div2.style.color = 'black';
+    div2.style.margin = '20px';
+    div1.appendChild(div2);
+
+    let div3 = document.createElement('input');
+    div3.type='text';
+    div3.placeholder = 'Your name';
+    div3.style.margin = '20px';
+    div3.style.height = '35px';
+    div3.style.paddingLeft = '20px';
+    div1.appendChild(div3);
+
+    let div4 = document.createElement('input');
+    div4.type='text'
+    div4.placeholder = 'Your Email Address';
+    div4.style.margin = '20px';
+    div4.style.height = '35px';
+    div4.style.paddingLeft = '20px';
+    div1.appendChild(div4);
+
+    let div5 = document.createElement('input');
+    div5.type='text';
+    div5.placeholder = 'Your Phone Number (optional)';
+    div5.style.margin = '20px';
+    div5.style.height = '35px';
+    div5.style.paddingLeft = '20px';
+    div1.appendChild(div5);
+
+    let div6 = document.createElement('input');
+    div6.type='text';
+    div6.placeholder = 'Your Web Site (optional)';
+    div6.style.margin = '20px';
+    div6.style.height = '35px';
+    div6.style.paddingLeft = '20px';
+    div1.appendChild(div6);
+
+    let div7 = document.createElement('input');
+    div7.type='text';
+    div7.placeholder = 'Type your messege here...';
+    div7.style.margin = '20px';
+    div7.style.height = '50px';
+    div7.style.paddingBottom = '50px';
+    div7.style.paddingLeft = '20px';
+    div1.appendChild(div7);
+
+    let buttonch = document.createElement('button');
+    buttonch.innerText = 'Submit';
+    buttonch.style.margin = '20px';
+    buttonch.style.height = '40px';
+    buttonch.style.border = '2px solid forestgreen';
+    buttonch.style.backgroundColor = 'forestgreen';
+    buttonch.style.color = 'white';
+    div1.appendChild(buttonch);
+    </script>
+</body>
+</html>
